@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inclusive Sans';
+}
+
+.index {
+    margin-top: 50px;
+}
+
+.index-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.index-desc {
+    font-size: 15px;
+}
+
+.index-signup {
+    width: 50vw;
+}
+
+.wrapper {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 5px 50px;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+form {
+    display: flex;
+    flex-flow: column;
+    width: 50vw;
+    padding: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 7px;
+    margin: 10px 0;
+}
+
+.btn-signup, .btn-login {
+    padding: 10px;
+    width: 70%;
+}
+
+.header-greet {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.name {
+    font-size: 2em;
+    color: #FFFFFF;
+    user-select: none;
+}
+
+.nav a {
+    position: relative;
+    font-size: 1.1em;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.nav .btn-header {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+
+}
+
+.nav .btn-header:hover {
+    background-color: #FFFFFF;
+    color: darkolivegreen;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Inclusive Sans';
+}
+
+
+
